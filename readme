@@ -1,0 +1,7 @@
+This scripts compress directories and encript files using the gpg tool and symetric encryption. Future this scripts can be modified to use assimetric encryption and auto encrypt and decrypt when mounting a directory (it's very like encryptfs tool but with advantage of use simple tools and short scripts)
+
+to encrypt a file or directory
+	./scripts/encrypt <name of file or directory> 
+
+to decrypt
+	./scripts/decrypt <name of encrypted file>
